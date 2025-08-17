@@ -7,3 +7,13 @@ Vestel QA technical challenge
   Define the optimal (effective and efficient) set of boundary test cases to test the
   function
 
+Boundary Test Cases
+TC#	Input	Expected Output	EP	BVA
+1	-1	"INVALID"	Yes (Invalid Negative)	Lower Invalid
+2	0	"INVALID"	Yes (Invalid Zero)	N/A
+3	1	"CHILD"	Yes (Child Min)	Lower Valid
+4	12	"CHILD"	Yes (Child Mid)	No
+5	17	"CHILD"	Yes (Child Max)	Upper Valid
+6	18	"ADULT"	Yes (Adult Min)	Lower Valid
+7	35	"ADULT"	Yes (Adult Mid)	No
+8	120	"ADULT"	Yes (Adult Extreme)	No
