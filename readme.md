@@ -7,7 +7,7 @@ Vestel QA technical challenge
     Define the optimal (effective and efficient) set of boundary test cases to test the
     function
 
-
+![img_6.png](img_6.png)
 
 
 
