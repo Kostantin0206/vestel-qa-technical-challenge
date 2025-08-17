@@ -3,8 +3,12 @@ Vestel QA technical challenge
    period using the following algorithm:
 - If age is zero, it should return INVALID
 - If age is greater than zero and less than 18, function should return CHILD
-- If age is greater than or equal to 18, function should return ADULT.
-  Define the optimal (effective and efficient) set of boundary test cases to test the
-  function
+  - If age is greater than or equal to 18, function should return ADULT.
+    Define the optimal (effective and efficient) set of boundary test cases to test the
+    function
+
+![img_5.png](img_5.png)
+
+
 
 
