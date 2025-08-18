@@ -22,6 +22,7 @@ Targeted Regression Testing with Risk Based Prioritization
 o	Identify modified components and their dependencies
 
 o	Use traceability matrices to map affected functionalities
+
 2.	Prioritize Test Cases 
 
 o	High Priority:
