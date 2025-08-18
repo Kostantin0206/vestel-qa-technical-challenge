@@ -1,6 +1,6 @@
 Vestel QA technical challenge
-1. A developer needs to write a function for converting age (a whole number), into life
-   period using the following algorithm:
+1. **A developer needs to write a function for converting age (a whole number), into life
+   period using the following algorithm:**
 - If age is zero, it should return INVALID
 - If age is greater than zero and less than 18, function should return CHILD
   - If age is greater than or equal to 18, function should return ADULT.
@@ -9,10 +9,10 @@ Vestel QA technical challenge
 
 ![img_6.png](img_6.png)
 
-2. A QA engineer is performing regression testing on a software application after a bug
+2. **A QA engineer is performing regression testing on a software application after a bug
    fix. The engineer wants to ensure that the bug fix did not introduce new issues or
    impact existing functionalities. Which approach would be most suitable for
-   regression testing?
+   regression testing?**
 
 According to ISTQB standards, the most suitable approach for regression testing after a bug fix is:
 
@@ -55,7 +55,7 @@ o	Partial Regression: If the fix is localized and low-risk
 
 o	Full Regression: If the change impacts critical/core modules
 
-3. Write a query to display all OrderID where the quantity is between 5 and 15.
+3. **Write a query to display all OrderID where the quantity is between 5 and 15.**
 
    SELECT OrderID, Quantity
 
