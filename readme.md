@@ -76,6 +76,7 @@ Bug Report: Login Button Not Visible on Mobile Devices
 Summary: Login Button Not Visible on Mobile Viewport (Responsive UI Issue)
 
 1. Basic Information
+
 Application: Swag Labs (saucedemo.com)
 
 Environment:
@@ -90,6 +91,7 @@ Priority: High (Blocks core functionality)
 Severity: Major
 
 2. Steps to Reproduce
+
 Open saucedemo.com on a mobile device
 
 Enter a valid username (standard_user)
@@ -97,6 +99,7 @@ Enter a valid username (standard_user)
 Enter a valid password (secret_sauce)
 
 Observe the Login button is not visible or interactable
+
 3. Expected Result
 
 Login button should be visible and clickable after entering credentials, regardless of device
