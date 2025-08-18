@@ -87,6 +87,7 @@ Device: Mobile (iPhone 12, Samsung Galaxy S21)
 Browser: Chrome Mobile vXX / Safari Mobile vXX
 
 OS: iOS 15 / Android 12
+
 Priority: High (Blocks core functionality)
 
 Severity: Major
@@ -108,6 +109,7 @@ Login button should be visible and clickable after entering credentials, regardl
 4. Actual Result
 
 Login button is hidden, off-screen, or unresponsive on mobile viewports
+
 Users cannot proceed to the dashboard
 
 5. Evidence
@@ -175,6 +177,7 @@ Hotfix ready for P0.
 Rollback plan if performance degrades post-release.
 
 4. Communication (Incident Management)
+
 P0: Hourly updates.
 
 Team: Meeting every 2 hours.
