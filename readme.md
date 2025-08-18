@@ -16,7 +16,7 @@ Vestel QA technical challenge
 
 According to ISTQB standards, the most suitable approach for regression testing after a bug fix is:
 
-Targeted Regression Testing with Risk Based Prioritization
+**Targeted Regression Testing with Risk Based Prioritization**
 1.	Impact Analysis
 
 o	Identify modified components and their dependencies
@@ -71,7 +71,7 @@ o	Full Regression: If the change impacts critical/core modules
 - Input a password.
 - 'Login' button is not visible (only on mobile devices).
 
-Bug Report: Login Button Not Visible on Mobile Devices
+**Bug Report: Login Button Not Visible on Mobile Devices**
 
 Summary: Login Button Not Visible on Mobile Viewport (Responsive UI Issue)
 
@@ -142,7 +142,7 @@ testing efforts remain on track.
 How would you address this high-pressure situation and make strategic decisions
 accordingly?
 
-Strategic Response to Urgent Requests During Regression Testing
+**Strategic Response to Urgent Requests During Regression Testing**
 
 1. Prioritization
 Critical Bug (P0):
