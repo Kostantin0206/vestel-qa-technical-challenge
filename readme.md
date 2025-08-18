@@ -145,6 +145,7 @@ accordingly?
 **Strategic Response to Urgent Requests During Regression Testing**
 
 1. Prioritization
+
 Critical Bug (P0):
 
 Action: Isolate, replicate, and fix immediately. Pause only affected test cases
