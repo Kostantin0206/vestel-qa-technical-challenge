@@ -120,6 +120,73 @@ All mobile users are blocked from accessing the application
 
 Business Impact: Loss of mobile traffic and potential revenue
 
+5. **The QA team is in the final stages of testing a critical software update scheduled for
+   release in two days. The team is focused on executing comprehensive test cases,
+   conducting regression testing, and ensuring that all identified issues are resolved
+   before the deadline.
+   Suddenly, the team receives several urgent customer requests through various
+   channels such as email, support tickets, and direct phone calls.
+   These requests include:**
+- A critical bug reported by a high-profile customer that renders a core feature
+  unusable, significantly impacting their business operations.
+- A functionality enhancement request from a long-standing customer, which they
+  claim is essential for their workflow efficiency and competitive edge.
+- Multiple reports of intermittent performance issues from a group of enterprise
+  clients who rely heavily on the software's responsiveness for their day-to-day
+  operations.
+
+With the impending release deadline, the QA team must make quick yet informed
+decisions on how to prioritize these customer requests while ensuring that the ongoing
+testing efforts remain on track.
+
+How would you address this high-pressure situation and make strategic decisions
+accordingly?
+
+Strategic Response to Urgent Requests During Regression Testing
+
+1. Prioritization
+Critical Bug (P0):
+
+Action: Isolate, replicate, and fix immediately. Pause only affected test cases
+
+Performance Issues (P1):
+
+Action: Investigate with metrics; add checks to current cycle if reproducible
+
+Enhancement (P3):
+
+Action: Document for backlog (no testing impact).
+
+2. Ongoing Testing (Regression Testing)
+
+Continue: 70% team runs regression on:
+
+High-risk areas
+
+Unaffected features (vs. P0/P1).
+
+Automate: Smoke tests to preserve bandwidth
+
+3. Contingencies (Maintenance Testing)
+Hotfix ready for P0.
+
+Rollback plan if performance degrades post-release.
+
+4. Communication (Incident Management)
+P0: Hourly updates.
+
+Team: Meeting every 2 hours.
+
+5. Outcome
+
+Release meets 85% test coverage (critical paths validated)
+
+P0 fixed; performance monitored post-release.
+
+
+
+
+
 
 
 
