@@ -65,6 +65,60 @@ o	Full Regression: If the change impacts critical/core modules
 
    ORDER BY OrderID, Quantity;
 
+4. **Create a bug report based on the following scenario:
+- Access Swag Labs (saucedemo.com).
+- Input a username.
+- Input a password.
+- 'Login' button is not visible (only on mobile devices).**
+
+Bug Report: Login Button Not Visible on Mobile Devices
+
+Summary: Login Button Not Visible on Mobile Viewport (Responsive UI Issue)
+
+1. Basic Information
+Application: Swag Labs (saucedemo.com)
+
+Environment:
+
+Device: Mobile (iPhone 12, Samsung Galaxy S21)
+
+Browser: Chrome Mobile vXX / Safari Mobile vXX
+
+OS: iOS 15 / Android 12
+Priority: High (Blocks core functionality)
+
+Severity: Major
+
+2. Steps to Reproduce
+Open saucedemo.com on a mobile device
+
+Enter a valid username (standard_user)
+
+Enter a valid password (secret_sauce)
+
+Observe the Login button is not visible or interactable
+3. Expected Result
+
+Login button should be visible and clickable after entering credentials, regardless of device
+
+4. Actual Result
+
+Login button is hidden, off-screen, or unresponsive on mobile viewports
+Users cannot proceed to the dashboard
+
+5. Evidence
+
+Screenshot:
+screenshot.jpg
+
+6. Impact
+
+All mobile users are blocked from accessing the application
+
+Business Impact: Loss of mobile traffic and potential revenue
+
+
+
 
 
 
