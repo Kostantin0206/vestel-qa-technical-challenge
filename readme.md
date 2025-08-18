@@ -54,6 +54,28 @@ o	Partial Regression: If the fix is localized and low-risk
 
 o	Full Regression: If the change impacts critical/core modules
 
+3. Write a query to display all OrderID where the quantity is between 5 and 15.
+
+   SELECT OrderID, Quantity
+
+   FROM OrderDetails
+
+   WHERE Quantity BETWEEN 5 AND 15
+
+   ORDER BY OrderID, Quantity;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
