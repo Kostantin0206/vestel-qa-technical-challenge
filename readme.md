@@ -65,11 +65,11 @@ o	Full Regression: If the change impacts critical/core modules
 
    ORDER BY OrderID, Quantity;
 
-4. **Create a bug report based on the following scenario:
+4. **Create a bug report based on the following scenario:**
 - Access Swag Labs (saucedemo.com).
 - Input a username.
 - Input a password.
-- 'Login' button is not visible (only on mobile devices).**
+- 'Login' button is not visible (only on mobile devices).
 
 Bug Report: Login Button Not Visible on Mobile Devices
 
